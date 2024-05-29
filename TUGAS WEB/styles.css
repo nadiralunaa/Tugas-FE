@@ -1,0 +1,133 @@
+/* General Styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Header Styles */
+.header {
+    background-color: #6F4E37;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin-top: 10px; /* Ubah margin top dari 10px 0 menjadi 10px untuk memberikan sedikit ruang */
+    font-size: 16px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #A67B5B;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 10px 0; /* Ubah margin menjadi 10px atas dan bawah */
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; /* Hilangkan margin kanan untuk item terakhir */
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #FED8B1;
+    color: #6F4E37;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row column;
+    flex-flow: row wrap; */
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+.sidebar {
+    flex: 1;
+    width: 100%;
+    /* max-width: 300px; */
+    /* padding: 20px; */
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Tambahkan margin bawah untuk memisahkan sidebar dari konten */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.photo-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px; /* Tambahkan margin atas untuk memisahkan foto dari konten */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
